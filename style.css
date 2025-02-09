@@ -455,4 +455,62 @@ footer {
 .swal2-confirm {
     padding: 0.5em 2em !important;
 }
+
+.company-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.company-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.fiverr-link {
+    color: #1dbf73;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.fiverr-link:hover {
+    color: #19a463;
+}
+
+.experience-item {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+}
+
+.experience-item h4 {
+    color: var(--primary-color);
+    margin-bottom: 5px;
+}
+
+.experience-item ul {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.experience-item ul li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.company-details {
+    color: #666;
+    font-size: 0.9em;
+    margin: 10px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
   
