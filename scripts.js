@@ -32,7 +32,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Typing Animation
 const typingText = document.querySelector('.typing-text');
-const phrases = ["Full Stack Developer", "Web Designer", "Problem Solver"];
+const phrases = ["Front-End/Back-End Developer", "Web Automations Expert", "AWS Software Architect"];
 let phraseIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
