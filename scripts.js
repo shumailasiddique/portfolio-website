@@ -112,15 +112,5 @@ window.addEventListener('scroll', () => {
     });
 });
 
-// Form Submission
-const contactForm = document.querySelector('.contact-form');
 
-contactForm.addEventListener('submit', (e) => {
-    e.preventDefault();
-    
-    // Add your form submission logic here
-    // For now, we'll just show an alert
-    alert('Thank you for your message! I will get back to you soon.');
-    contactForm.reset();
-});
   
